@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    input:focus, textarea:focus {
+
+        border: none;
+        outline: none;
+      
+      }
+}
+
+.container {
+    background-image: url('https://images.unsplash.com/photo-1616530940355-351fabd9524b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+ 
+   
+
+
+}
+
+.container-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.caixa-input h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+
+}
+
+.caixa-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 34px;
+    max-height: 100vh;
+
+    min-height: 700px;
+    border-radius: 20px;
+    width: 800px;
+    max-width: 700px;
+    background-color: rgba(19, 18, 18, 0.801);
+
+
+
+}
+
+#iemail {
+    border-radius: 10px;
+    border: none;
+    max-width: 300px;
+    width: 400px;
+    min-height: 46px;
+}
+
+#isenha {
+    border-radius: 7px;
+    border: none;
+    max-width: 300px;
+    width: 400px;
+    min-height: 46px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: white;
+    margin-top: 30px;
+    border-radius: 7px;
+    border: none;
+    max-width: 300px;
+    width: 400px;
+    min-height: 46px;
+    background-color: rgb(201, 78, 20);
+}
+
+.input-radius {
+
+
+    width: 100%;
+    padding: 20px;
+
+}
+
+.input-radius label span {
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: none;
+
+}
+
+#icheck {
+
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+
+
+.text-help {
+    position: relative;
+    bottom: 60px;
+    left: 100px;
+    border: transparent;
+    display: inline-block;
+
+    width: 50%;
+    text-align: end;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 242, 242);
+    font-size: 1em;
+}
+
